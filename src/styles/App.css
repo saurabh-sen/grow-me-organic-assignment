@@ -1,0 +1,11 @@
+.App{
+  width: 320px;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
