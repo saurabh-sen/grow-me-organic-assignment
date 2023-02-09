@@ -4,7 +4,7 @@ import { useNavigate, useLocation } from 'react-router-dom'
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 
 // Main component
-const Data = () => {
+const Details = () => {
 
   // Hooks
   const navigate = useNavigate();
@@ -78,4 +78,4 @@ const Data = () => {
   )
 }
 
-export default Data
+export default Details

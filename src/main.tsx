@@ -5,7 +5,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Data from "./Routes/Data"
+import Details from "./Routes/Details"
 
 // Define the routes
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/details",
-    element: <Data />,
+    element: <Details />,
     errorElement: <div>something broke</div>,
   },
   {
